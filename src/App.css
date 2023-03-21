@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .caixaTexto input:focus{
+outline:none;
+}
+.caixaTexto input{
+ background: #f1f1f0;
+ height: 50px;
+ width: 250px;
+ border:ridge;
+ margin-bottom: 3px;
+ border-radius: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button  {
+  background: none;
+  border: none;
+  margin-left: 10px;
+}
+button:hover{
+  transform: scale(1.6);
+}
+.coffe{
+  color:#5c1e14;
+  margin-left: 10px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.adicionar{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.caixaTexto h1{
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tarefaas{
+  height: fit-content;
+  width:fit-content ;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+.lista{
+  height: 100px;
+  width: 260px;
+  margin-bottom: 10px;
+  background-color: #341100;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.icon{
+ color: #ffd9ab;
+align-self: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.dataa{
+  align-self: center;
+}
+.caixaTexto{
+  margin-bottom: 10px;
 }
